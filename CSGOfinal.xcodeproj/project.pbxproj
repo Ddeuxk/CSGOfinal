@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D42B5858E78C19AB2C8158E /* Pods_CSGOfinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6529A6AE49C70F4B79A152F1 /* Pods_CSGOfinalTests.framework */; };
+		B03E2AE42B1B296B00AC2B76 /* CSGO4.db in Resources */ = {isa = PBXBuildFile; fileRef = B03E2AE32B1B296B00AC2B76 /* CSGO4.db */; };
+		B03E2AE52B1B296B00AC2B76 /* CSGO4.db in Resources */ = {isa = PBXBuildFile; fileRef = B03E2AE32B1B296B00AC2B76 /* CSGO4.db */; };
+		B03E2AE62B1B296B00AC2B76 /* CSGO4.db in Resources */ = {isa = PBXBuildFile; fileRef = B03E2AE32B1B296B00AC2B76 /* CSGO4.db */; };
+		B03E2AE82B1B2C7E00AC2B76 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E2AE72B1B2C7E00AC2B76 /* VC1.swift */; };
+		B03E2AE92B1B2C7E00AC2B76 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E2AE72B1B2C7E00AC2B76 /* VC1.swift */; };
+		B03E2AEA2B1B2C7E00AC2B76 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E2AE72B1B2C7E00AC2B76 /* VC1.swift */; };
+		B055C6592B18DE0D00765CD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055C6582B18DE0D00765CD7 /* TableViewController.swift */; };
+		B055C65A2B18DE0D00765CD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055C6582B18DE0D00765CD7 /* TableViewController.swift */; };
+		B055C65B2B18DE0D00765CD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055C6582B18DE0D00765CD7 /* TableViewController.swift */; };
+		B08C9FC22B1B9E0B00C26D98 /* VCMap2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C9FC12B1B9E0B00C26D98 /* VCMap2.swift */; };
+		B08C9FC32B1B9E0B00C26D98 /* VCMap2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C9FC12B1B9E0B00C26D98 /* VCMap2.swift */; };
+		B08C9FC42B1B9E0B00C26D98 /* VCMap2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08C9FC12B1B9E0B00C26D98 /* VCMap2.swift */; };
+		B09C5A312B1A0AA000F1E21D /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C5A302B1A0AA000F1E21D /* VC2.swift */; };
+		B09C5A322B1A0AA000F1E21D /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C5A302B1A0AA000F1E21D /* VC2.swift */; };
+		B09C5A332B1A0AA000F1E21D /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C5A302B1A0AA000F1E21D /* VC2.swift */; };
+		B0C16F6D2B1B778600949FF3 /* VCWebkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F6C2B1B778600949FF3 /* VCWebkit.swift */; };
+		B0C16F6E2B1B778600949FF3 /* VCWebkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F6C2B1B778600949FF3 /* VCWebkit.swift */; };
+		B0C16F6F2B1B778600949FF3 /* VCWebkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F6C2B1B778600949FF3 /* VCWebkit.swift */; };
+		B0C16F712B1B7CBA00949FF3 /* VCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F702B1B7CBA00949FF3 /* VCMap.swift */; };
+		B0C16F722B1B7CBA00949FF3 /* VCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F702B1B7CBA00949FF3 /* VCMap.swift */; };
+		B0C16F732B1B7CBA00949FF3 /* VCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F702B1B7CBA00949FF3 /* VCMap.swift */; };
+		B0C16F752B1B7CFB00949FF3 /* TVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F742B1B7CFB00949FF3 /* TVC2.swift */; };
+		B0C16F762B1B7CFB00949FF3 /* TVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F742B1B7CFB00949FF3 /* TVC2.swift */; };
+		B0C16F772B1B7CFB00949FF3 /* TVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C16F742B1B7CFB00949FF3 /* TVC2.swift */; };
+		B0C2C21F2B1A3715007456D0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C21E2B1A3715007456D0 /* TableViewCell.swift */; };
+		B0C2C2202B1A3715007456D0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C21E2B1A3715007456D0 /* TableViewCell.swift */; };
+		B0C2C2212B1A3715007456D0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C2C21E2B1A3715007456D0 /* TableViewCell.swift */; };
+		D2533B0479B5A58DBA0A123F /* Pods_CSGOfinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BCEE9659C874E3758ECD10 /* Pods_CSGOfinal.framework */; };
+		DCBE04892B11F9930026FDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE04882B11F9930026FDA4 /* AppDelegate.swift */; };
+		DCBE048B2B11F9930026FDA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE048A2B11F9930026FDA4 /* SceneDelegate.swift */; };
+		DCBE048D2B11F9930026FDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE048C2B11F9930026FDA4 /* ViewController.swift */; };
+		DCBE04902B11F9930026FDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBE048E2B11F9930026FDA4 /* Main.storyboard */; };
+		DCBE04922B11F9950026FDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBE04912B11F9950026FDA4 /* Assets.xcassets */; };
+		DCBE04952B11F9950026FDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBE04932B11F9950026FDA4 /* LaunchScreen.storyboard */; };
+		DCBE04A02B11F9950026FDA4 /* CSGOfinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE049F2B11F9950026FDA4 /* CSGOfinalTests.swift */; };
+		DCBE04AA2B11F9950026FDA4 /* CSGOfinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE04A92B11F9950026FDA4 /* CSGOfinalUITests.swift */; };
+		DCBE04AC2B11F9950026FDA4 /* CSGOfinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE04AB2B11F9950026FDA4 /* CSGOfinalUITestsLaunchTests.swift */; };
+		F1BC56E185454F8EB1C5ADBC /* Pods_CSGOfinal_CSGOfinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41179996542E3BAEB215CD0 /* Pods_CSGOfinal_CSGOfinalUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCBE049C2B11F9950026FDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBE047D2B11F9930026FDA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBE04842B11F9930026FDA4;
+			remoteInfo = CSGOfinal;
+		};
+		DCBE04A62B11F9950026FDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBE047D2B11F9930026FDA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBE04842B11F9930026FDA4;
+			remoteInfo = CSGOfinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CE57E1F0A364DD009C499D6 /* Pods-CSGOfinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOfinal.release.xcconfig"; path = "Target Support Files/Pods-CSGOfinal/Pods-CSGOfinal.release.xcconfig"; sourceTree = "<group>"; };
+		111586DFEBDE0DC957A6FABE /* Pods-CSGOfinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOfinal.debug.xcconfig"; path = "Target Support Files/Pods-CSGOfinal/Pods-CSGOfinal.debug.xcconfig"; sourceTree = "<group>"; };
+		203068D998CC17ECBF2F815F /* Pods-CSGOfinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOfinalTests.debug.xcconfig"; path = "Target Support Files/Pods-CSGOfinalTests/Pods-CSGOfinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		571126EA60E156C4FCCBDFC5 /* Pods-CSGOfinal-CSGOfinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOfinal-CSGOfinalUITests.release.xcconfig"; path = "Target Support Files/Pods-CSGOfinal-CSGOfinalUITests/Pods-CSGOfinal-CSGOfinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6529A6AE49C70F4B79A152F1 /* Pods_CSGOfinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSGOfinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95635F522DDD5512C553C979 /* Pods-CSGOfinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOfinalTests.release.xcconfig"; path = "Target Support Files/Pods-CSGOfinalTests/Pods-CSGOfinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		99BCEE9659C874E3758ECD10 /* Pods_CSGOfinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSGOfinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03E2AE32B1B296B00AC2B76 /* CSGO4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = CSGO4.db; sourceTree = "<group>"; };
+		B03E2AE72B1B2C7E00AC2B76 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		B055C6582B18DE0D00765CD7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B08C9FC12B1B9E0B00C26D98 /* VCMap2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMap2.swift; sourceTree = "<group>"; };
+		B08C9FC82B1BAD1600C26D98 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		B09C5A302B1A0AA000F1E21D /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		B0C16F6C2B1B778600949FF3 /* VCWebkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWebkit.swift; sourceTree = "<group>"; };
+		B0C16F702B1B7CBA00949FF3 /* VCMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMap.swift; sourceTree = "<group>"; };
+		B0C16F742B1B7CFB00949FF3 /* TVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVC2.swift; sourceTree = "<group>"; };
+		B0C2C21E2B1A3715007456D0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D41179996542E3BAEB215CD0 /* Pods_CSGOfinal_CSGOfinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSGOfinal_CSGOfinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBE04852B11F9930026FDA4 /* CSGOfinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSGOfinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBE04882B11F9930026FDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCBE048A2B11F9930026FDA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCBE048C2B11F9930026FDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCBE048F2B11F9930026FDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCBE04912B11F9950026FDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCBE04942B11F9950026FDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCBE04962B11F9950026FDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBE049B2B11F9950026FDA4 /* CSGOfinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSGOfinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBE049F2B11F9950026FDA4 /* CSGOfinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGOfinalTests.swift; sourceTree = "<group>"; };
+		DCBE04A52B11F9950026FDA4 /* CSGOfinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSGOfinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBE04A92B11F9950026FDA4 /* CSGOfinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGOfinalUITests.swift; sourceTree = "<group>"; };
+		DCBE04AB2B11F9950026FDA4 /* CSGOfinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGOfinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E89DBAF0BF9717A067D52D8C /* Pods-CSGOfinal-CSGOfinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOfinal-CSGOfinalUITests.debug.xcconfig"; path = "Target Support Files/Pods-CSGOfinal-CSGOfinalUITests/Pods-CSGOfinal-CSGOfinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCBE04822B11F9930026FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2533B0479B5A58DBA0A123F /* Pods_CSGOfinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBE04982B11F9950026FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D42B5858E78C19AB2C8158E /* Pods_CSGOfinalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBE04A22B11F9950026FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BC56E185454F8EB1C5ADBC /* Pods_CSGOfinal_CSGOfinalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCBE047C2B11F9930026FDA4 = {
+			isa = PBXGroup;
+			children = (
+				DCBE04872B11F9930026FDA4 /* CSGOfinal */,
+				DCBE049E2B11F9950026FDA4 /* CSGOfinalTests */,
+				DCBE04A82B11F9950026FDA4 /* CSGOfinalUITests */,
+				DCBE04862B11F9930026FDA4 /* Products */,
+				E87A3FC5B04D38180EF05361 /* Pods */,
+				FA6360A5687312AB3B5EA33E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCBE04862B11F9930026FDA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE04852B11F9930026FDA4 /* CSGOfinal.app */,
+				DCBE049B2B11F9950026FDA4 /* CSGOfinalTests.xctest */,
+				DCBE04A52B11F9950026FDA4 /* CSGOfinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCBE04872B11F9930026FDA4 /* CSGOfinal */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE04882B11F9930026FDA4 /* AppDelegate.swift */,
+				B03E2AE32B1B296B00AC2B76 /* CSGO4.db */,
+				DCBE048A2B11F9930026FDA4 /* SceneDelegate.swift */,
+				DCBE048C2B11F9930026FDA4 /* ViewController.swift */,
+				DCBE048E2B11F9930026FDA4 /* Main.storyboard */,
+				B08C9FC12B1B9E0B00C26D98 /* VCMap2.swift */,
+				B0C16F742B1B7CFB00949FF3 /* TVC2.swift */,
+				B0C16F702B1B7CBA00949FF3 /* VCMap.swift */,
+				B03E2AE72B1B2C7E00AC2B76 /* VC1.swift */,
+				B09C5A302B1A0AA000F1E21D /* VC2.swift */,
+				B0C16F6C2B1B778600949FF3 /* VCWebkit.swift */,
+				B055C6582B18DE0D00765CD7 /* TableViewController.swift */,
+				B0C2C21E2B1A3715007456D0 /* TableViewCell.swift */,
+				DCBE04912B11F9950026FDA4 /* Assets.xcassets */,
+				DCBE04932B11F9950026FDA4 /* LaunchScreen.storyboard */,
+				DCBE04962B11F9950026FDA4 /* Info.plist */,
+			);
+			path = CSGOfinal;
+			sourceTree = "<group>";
+		};
+		DCBE049E2B11F9950026FDA4 /* CSGOfinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE049F2B11F9950026FDA4 /* CSGOfinalTests.swift */,
+			);
+			path = CSGOfinalTests;
+			sourceTree = "<group>";
+		};
+		DCBE04A82B11F9950026FDA4 /* CSGOfinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE04A92B11F9950026FDA4 /* CSGOfinalUITests.swift */,
+				DCBE04AB2B11F9950026FDA4 /* CSGOfinalUITestsLaunchTests.swift */,
+			);
+			path = CSGOfinalUITests;
+			sourceTree = "<group>";
+		};
+		E87A3FC5B04D38180EF05361 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				111586DFEBDE0DC957A6FABE /* Pods-CSGOfinal.debug.xcconfig */,
+				0CE57E1F0A364DD009C499D6 /* Pods-CSGOfinal.release.xcconfig */,
+				E89DBAF0BF9717A067D52D8C /* Pods-CSGOfinal-CSGOfinalUITests.debug.xcconfig */,
+				571126EA60E156C4FCCBDFC5 /* Pods-CSGOfinal-CSGOfinalUITests.release.xcconfig */,
+				203068D998CC17ECBF2F815F /* Pods-CSGOfinalTests.debug.xcconfig */,
+				95635F522DDD5512C553C979 /* Pods-CSGOfinalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA6360A5687312AB3B5EA33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99BCEE9659C874E3758ECD10 /* Pods_CSGOfinal.framework */,
+				D41179996542E3BAEB215CD0 /* Pods_CSGOfinal_CSGOfinalUITests.framework */,
+				6529A6AE49C70F4B79A152F1 /* Pods_CSGOfinalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCBE04842B11F9930026FDA4 /* CSGOfinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBE04AF2B11F9950026FDA4 /* Build configuration list for PBXNativeTarget "CSGOfinal" */;
+			buildPhases = (
+				AFCD1242F0EBF26B6BC962F9 /* [CP] Check Pods Manifest.lock */,
+				DCBE04812B11F9930026FDA4 /* Sources */,
+				DCBE04822B11F9930026FDA4 /* Frameworks */,
+				DCBE04832B11F9930026FDA4 /* Resources */,
+				167819335B7857E82085AA05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSGOfinal;
+			productName = CSGOfinal;
+			productReference = DCBE04852B11F9930026FDA4 /* CSGOfinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCBE049A2B11F9950026FDA4 /* CSGOfinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBE04B22B11F9950026FDA4 /* Build configuration list for PBXNativeTarget "CSGOfinalTests" */;
+			buildPhases = (
+				29E1FB9D9242F8A1DCE923EA /* [CP] Check Pods Manifest.lock */,
+				DCBE04972B11F9950026FDA4 /* Sources */,
+				DCBE04982B11F9950026FDA4 /* Frameworks */,
+				DCBE04992B11F9950026FDA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBE049D2B11F9950026FDA4 /* PBXTargetDependency */,
+			);
+			name = CSGOfinalTests;
+			productName = CSGOfinalTests;
+			productReference = DCBE049B2B11F9950026FDA4 /* CSGOfinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCBE04A42B11F9950026FDA4 /* CSGOfinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBE04B52B11F9950026FDA4 /* Build configuration list for PBXNativeTarget "CSGOfinalUITests" */;
+			buildPhases = (
+				8A1CAA17B4341D256C683A2E /* [CP] Check Pods Manifest.lock */,
+				DCBE04A12B11F9950026FDA4 /* Sources */,
+				DCBE04A22B11F9950026FDA4 /* Frameworks */,
+				DCBE04A32B11F9950026FDA4 /* Resources */,
+				9471E81048BCEA4FC0A1A183 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBE04A72B11F9950026FDA4 /* PBXTargetDependency */,
+			);
+			name = CSGOfinalUITests;
+			productName = CSGOfinalUITests;
+			productReference = DCBE04A52B11F9950026FDA4 /* CSGOfinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCBE047D2B11F9930026FDA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DCBE04842B11F9930026FDA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DCBE049A2B11F9950026FDA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DCBE04842B11F9930026FDA4;
+					};
+					DCBE04A42B11F9950026FDA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DCBE04842B11F9930026FDA4;
+					};
+				};
+			};
+			buildConfigurationList = DCBE04802B11F9930026FDA4 /* Build configuration list for PBXProject "CSGOfinal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				th,
+			);
+			mainGroup = DCBE047C2B11F9930026FDA4;
+			productRefGroup = DCBE04862B11F9930026FDA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCBE04842B11F9930026FDA4 /* CSGOfinal */,
+				DCBE049A2B11F9950026FDA4 /* CSGOfinalTests */,
+				DCBE04A42B11F9950026FDA4 /* CSGOfinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCBE04832B11F9930026FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03E2AE42B1B296B00AC2B76 /* CSGO4.db in Resources */,
+				DCBE04952B11F9950026FDA4 /* LaunchScreen.storyboard in Resources */,
+				DCBE04922B11F9950026FDA4 /* Assets.xcassets in Resources */,
+				DCBE04902B11F9930026FDA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBE04992B11F9950026FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03E2AE52B1B296B00AC2B76 /* CSGO4.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBE04A32B11F9950026FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03E2AE62B1B296B00AC2B76 /* CSGO4.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167819335B7857E82085AA05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOfinal/Pods-CSGOfinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOfinal/Pods-CSGOfinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSGOfinal/Pods-CSGOfinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29E1FB9D9242F8A1DCE923EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSGOfinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1CAA17B4341D256C683A2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSGOfinal-CSGOfinalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9471E81048BCEA4FC0A1A183 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOfinal-CSGOfinalUITests/Pods-CSGOfinal-CSGOfinalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOfinal-CSGOfinalUITests/Pods-CSGOfinal-CSGOfinalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSGOfinal-CSGOfinalUITests/Pods-CSGOfinal-CSGOfinalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCD1242F0EBF26B6BC962F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSGOfinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCBE04812B11F9930026FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C16F752B1B7CFB00949FF3 /* TVC2.swift in Sources */,
+				B0C16F6D2B1B778600949FF3 /* VCWebkit.swift in Sources */,
+				DCBE048D2B11F9930026FDA4 /* ViewController.swift in Sources */,
+				B0C16F712B1B7CBA00949FF3 /* VCMap.swift in Sources */,
+				B03E2AE82B1B2C7E00AC2B76 /* VC1.swift in Sources */,
+				DCBE04892B11F9930026FDA4 /* AppDelegate.swift in Sources */,
+				B09C5A312B1A0AA000F1E21D /* VC2.swift in Sources */,
+				B0C2C21F2B1A3715007456D0 /* TableViewCell.swift in Sources */,
+				DCBE048B2B11F9930026FDA4 /* SceneDelegate.swift in Sources */,
+				B08C9FC22B1B9E0B00C26D98 /* VCMap2.swift in Sources */,
+				B055C6592B18DE0D00765CD7 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBE04972B11F9950026FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09C5A322B1A0AA000F1E21D /* VC2.swift in Sources */,
+				B0C16F722B1B7CBA00949FF3 /* VCMap.swift in Sources */,
+				B0C2C2202B1A3715007456D0 /* TableViewCell.swift in Sources */,
+				B08C9FC32B1B9E0B00C26D98 /* VCMap2.swift in Sources */,
+				B0C16F6E2B1B778600949FF3 /* VCWebkit.swift in Sources */,
+				B0C16F762B1B7CFB00949FF3 /* TVC2.swift in Sources */,
+				B03E2AE92B1B2C7E00AC2B76 /* VC1.swift in Sources */,
+				DCBE04A02B11F9950026FDA4 /* CSGOfinalTests.swift in Sources */,
+				B055C65A2B18DE0D00765CD7 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBE04A12B11F9950026FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03E2AEA2B1B2C7E00AC2B76 /* VC1.swift in Sources */,
+				B0C16F772B1B7CFB00949FF3 /* TVC2.swift in Sources */,
+				B0C2C2212B1A3715007456D0 /* TableViewCell.swift in Sources */,
+				DCBE04AA2B11F9950026FDA4 /* CSGOfinalUITests.swift in Sources */,
+				B055C65B2B18DE0D00765CD7 /* TableViewController.swift in Sources */,
+				DCBE04AC2B11F9950026FDA4 /* CSGOfinalUITestsLaunchTests.swift in Sources */,
+				B08C9FC42B1B9E0B00C26D98 /* VCMap2.swift in Sources */,
+				B0C16F732B1B7CBA00949FF3 /* VCMap.swift in Sources */,
+				B09C5A332B1A0AA000F1E21D /* VC2.swift in Sources */,
+				B0C16F6F2B1B778600949FF3 /* VCWebkit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCBE049D2B11F9950026FDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBE04842B11F9930026FDA4 /* CSGOfinal */;
+			targetProxy = DCBE049C2B11F9950026FDA4 /* PBXContainerItemProxy */;
+		};
+		DCBE04A72B11F9950026FDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBE04842B11F9930026FDA4 /* CSGOfinal */;
+			targetProxy = DCBE04A62B11F9950026FDA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCBE048E2B11F9930026FDA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBE048F2B11F9930026FDA4 /* Base */,
+				B08C9FC82B1BAD1600C26D98 /* th */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBE04932B11F9950026FDA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBE04942B11F9950026FDA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCBE04AD2B11F9950026FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCBE04AE2B11F9950026FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCBE04B02B11F9950026FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111586DFEBDE0DC957A6FABE /* Pods-CSGOfinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSGOfinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-75.CSGOfinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCBE04B12B11F9950026FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE57E1F0A364DD009C499D6 /* Pods-CSGOfinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CSGOfinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-75.CSGOfinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCBE04B32B11F9950026FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203068D998CC17ECBF2F815F /* Pods-CSGOfinalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-75.CSGOfinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSGOfinal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CSGOfinal";
+			};
+			name = Debug;
+		};
+		DCBE04B42B11F9950026FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95635F522DDD5512C553C979 /* Pods-CSGOfinalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-75.CSGOfinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSGOfinal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CSGOfinal";
+			};
+			name = Release;
+		};
+		DCBE04B62B11F9950026FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89DBAF0BF9717A067D52D8C /* Pods-CSGOfinal-CSGOfinalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-75.CSGOfinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSGOfinal;
+			};
+			name = Debug;
+		};
+		DCBE04B72B11F9950026FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571126EA60E156C4FCCBDFC5 /* Pods-CSGOfinal-CSGOfinalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-75.CSGOfinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSGOfinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBE04802B11F9930026FDA4 /* Build configuration list for PBXProject "CSGOfinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBE04AD2B11F9950026FDA4 /* Debug */,
+				DCBE04AE2B11F9950026FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBE04AF2B11F9950026FDA4 /* Build configuration list for PBXNativeTarget "CSGOfinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBE04B02B11F9950026FDA4 /* Debug */,
+				DCBE04B12B11F9950026FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBE04B22B11F9950026FDA4 /* Build configuration list for PBXNativeTarget "CSGOfinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBE04B32B11F9950026FDA4 /* Debug */,
+				DCBE04B42B11F9950026FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBE04B52B11F9950026FDA4 /* Build configuration list for PBXNativeTarget "CSGOfinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBE04B62B11F9950026FDA4 /* Debug */,
+				DCBE04B72B11F9950026FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCBE047D2B11F9930026FDA4 /* Project object */;
+}

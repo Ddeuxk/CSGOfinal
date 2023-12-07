@@ -1,0 +1,81 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0ew-ML-MwV"; */
+"0ew-ML-MwV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Spray pattern"; ObjectID = "0zE-ud-Fbx"; */
+"0zE-ud-Fbx.text" = "Spray pattern";
+
+/* Class = "UILabel"; text = "Costs"; ObjectID = "55R-mt-phm"; */
+"55R-mt-phm.text" = "Costs";
+
+/* Class = "UILabel"; text = "Full Map"; ObjectID = "6Rx-Mf-ls9"; */
+"6Rx-Mf-ls9.text" = "Full Map";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8zf-g9-Unj"; */
+"8zf-g9-Unj.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Strategies"; ObjectID = "Bnp-kS-0VF"; */
+"Bnp-kS-0VF.configuration.title" = "Strategies";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Bnp-kS-0VF"; */
+"Bnp-kS-0VF.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CIY-5I-ksy"; */
+"CIY-5I-ksy.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "E9b-Su-o3J"; */
+"E9b-Su-o3J.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JGN-y3-JJO"; */
+"JGN-y3-JJO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Costs"; ObjectID = "Kpd-SW-iqA"; */
+"Kpd-SW-iqA.text" = "Costs";
+
+/* Class = "UIButton"; configuration.title = "Maps"; ObjectID = "KzY-Y1-j67"; */
+"KzY-Y1-j67.configuration.title" = "Maps";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KzY-Y1-j67"; */
+"KzY-Y1-j67.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Name of the gun"; ObjectID = "P8N-RJ-nEs"; */
+"P8N-RJ-nEs.text" = "Name of the gun";
+
+/* Class = "UILabel"; text = "ENG"; ObjectID = "Pvj-5r-UUg"; */
+"Pvj-5r-UUg.text" = "ENG";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "VfA-UF-NcO"; */
+"VfA-UF-NcO.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Heavy"; ObjectID = "ZR7-4q-kBx"; */
+"ZR7-4q-kBx.text" = "Heavy";
+
+/* Class = "UILabel"; text = "Rifles"; ObjectID = "ZeI-DT-Ds9"; */
+"ZeI-DT-Ds9.text" = "Rifles";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nON-bp-6oT"; */
+"nON-bp-6oT.text" = "Label";
+
+/* Class = "UILabel"; text = "Pistols"; ObjectID = "o2d-Lr-87v"; */
+"o2d-Lr-87v.text" = "Pistols";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qcD-GW-3jj"; */
+"qcD-GW-3jj.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "SMGS"; ObjectID = "yaj-o5-2qd"; */
+"yaj-o5-2qd.text" = "SMGS";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "ygO-SV-i4h"; */
+"ygO-SV-i4h.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zBd-h6-TmW"; */
+"zBd-h6-TmW.text" = "Label";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "zCx-dl-MGw"; */
+"zCx-dl-MGw.text" = "Other";
+
+/* Class = "UILabel"; text = "TH"; ObjectID = "zaX-qG-4uH"; */
+"zaX-qG-4uH.text" = "TH";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zuY-ZP-AdN"; */
+"zuY-ZP-AdN.text" = "Label";

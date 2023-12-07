@@ -1,0 +1,18 @@
+PODS:
+  - GRDB.swift (6.23.0):
+    - GRDB.swift/standard (= 6.23.0)
+  - GRDB.swift/standard (6.23.0)
+
+DEPENDENCIES:
+  - GRDB.swift
+
+SPEC REPOS:
+  trunk:
+    - GRDB.swift
+
+SPEC CHECKSUMS:
+  GRDB.swift: e819934eb2df28a6907f28d746eb3cf9c7c53b75
+
+PODFILE CHECKSUM: 17ca5743eeefd459130b56a7dd0500020700fd5e
+
+COCOAPODS: 1.14.3
