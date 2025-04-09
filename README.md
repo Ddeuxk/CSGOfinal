@@ -1,0 +1,1 @@
+a fully functional iOS app providing detailed information on Counter-Strike: Global Offensive (CS:GO) weapons, maps, and game mechanics. Designed a responsive, user-friendly interface with SwiftUI and implemented efficient data handling to deliver a smooth user experience. Focused on usability, performance, and visually clean UI consistent with iOS best practices.
